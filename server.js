@@ -1,6 +1,7 @@
 const express  = require('express');
 const mongoose = require('mongoose');
 const router = require('./routes/index');
+const Post = require('../models/Post');
 //config vars
 const port = process.env.PORT || 3000;
 const db   = process.env.MONGODB_URI || 'mongodb://localhost/blog35abella';
